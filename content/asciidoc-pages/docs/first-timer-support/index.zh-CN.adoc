@@ -1,0 +1,58 @@
+= Eclipse Adoptium(R) 第一时间支持
+:page-authors: MBoegers, hendrikebbers, gdams, tellison, Ndacyayisenga-droid, LemongrabThree
+:description: Support with first time contributions
+:keywords: adoptium documentation contribute first-time
+:icons: font
+
+
+在 Adoptium 我们希望帮助人们进入开源社区，Java社区。因此，对我们来说，为想要开始开源工作的人们提供帮助非常重要。
+
+[NOTE]
+====
+该文档仍在进行中，所提到的一些将来的观点是尚未经过验证的。
+====
+
+Adoptium 在这里https://github.com/issues?q=is%3Aopen+is%3Aissue+org%3Aadoptium+archived%3Afalse+label%3A%22good+first+issue%22[第一次优先级问题]提供了第一手的问题列表 .
+所有这些问题在这个开源项目中都得到响应
+这些问题提供给用户友好的描述，一些有用的文档和教程链接，可以直接开始处理此问题。即使您一般不太熟悉GitHub，这些问题链接到用户友好的教程，这些问题将帮助用户了解工作流的分支和拉出请求。
+
+
+
+您可以在这里找到例子 https://github.com/AdoptOpenJDK/IcedTea-Web/issues/706[举一个例子 **`第一次优先级问题`** in the IcedTea-Web repository].
+
+在 GitHub，您可以找到所有的问题列表 https://github.com/issues?q=org%3AAdoptium+label%3A%22good+first+issue%22+is%3Aopen[标识为 **`第一次优先级问题`** 所有问题列表].
+
+== 模板
+
+我们当前正工作在如何创建好的问题描述的模板上 https://github.com/issues?q=is%3Aopen+is%3Aissue+org%3Aadoptium+archived%3Afalse+label%3A%22good+first+issue%22[第一次优先级问题].
+https://gist.github.com/hendrikebbers/8e4dec9ddea5e2a420080d1314af025f[关于模板的当前版本] and
+https://gist.github.com/hendrikebbers/0f9cdd18076343b3bbe5f2d162733b6e[a section about "First timers support" to contributing.md files]
+
+== 创建好的问题的流程
+
+每当您认为问题可能是一个好的优先级问题 https://github.com/issues?q=is%3Aopen+is%3Aissue+org%3Aadoptium+archived%3Afalse+label%3A%22good+first+issue%22[good first issue] 请您打上 **`good first issue - candidate`** 标签.
+再审查修改后会变成 https://github.com/issues?q=is%3Aopen+is%3Aissue+org%3Aadoptium+archived%3Afalse+label%3A%22good+first+issue%22[第一次优先级问题]
+
+在GitHub您可以发现 https://github.com/issues?q=org%3AAdoptium+label%3A%22good+first+issue+-+candidate%22+is%3Aopen[所有标签为 **`第一次优先级问题 - 候选者`** 的问题].
+
+所有标签为 **`第一次优先级问题 - 候选者`** 的问题必须进行审查，并可能被重标识成为一个第一次优先级问题 https://github.com/issues?q=is%3Aopen+is%3Aissue+org%3Aadoptium+archived%3Afalse+label%3A%22good+first+issue%22[第一次优先级问题].
+下面是一些必须遵守的规则:
+
+- 问题的标题必须指定问题所在
+- 问题的描述必须基于我们的第一次优先级问题模板https://gist.github.com/hendrikebbers/0f9cdd18076343b3bbe5f2d162733b6e[our **`第一次优先级问题`** template]
+- 该问题不应包含任何评论。评论使得新手很难理解。
+评论中的所有相关信息都应添加到问题的描述中
+之后评论应该删除。
+如果没有最好的解决方案，那么请请将问题链接到最初原始的问题链接，关闭你自己创建的问题描述 https://github.com/issues?q=is%3Aopen+is%3Aissue+org%3Aadoptium+archived%3Afalse+label%3A%22good+first+issue%22[第一次优先级问题]
+- 在定义问题的描述时，链接到文档或有用的文件（甚至直接与代码），这样才有有意义，可以帮助新人找到合适的起点来解决问题。
+
+一旦候选问题重标识和审查通过后，应将其标记为第一次优先级问题 https://github.com/issues?q=is%3Aopen+is%3Aissue+org%3Aadoptium+archived%3Afalse+label%3A%22good+first+issue%22[good first issue] 同时删除标签 第一次优先级问题 - 候选者
+。接下来，我们应该将所有这些问题标记为**`help wanted`**和**`Hacktoberfest`**。
+
+== 链接 & 资源
+
+- https://github.com/issues?q=org%3AAdoptium+label%3A%22good+first+issue%22+is%3Aopen[ **`第一次优先级问题`** 所有问题列表]
+- https://github.com/issues?q=org%3AAdoptium+label%3A%22good+first+issue+-+candidate%22+is%3Aopen[ **`第一次优先级问题 候选者`** 所有问题列表]
+- https://gist.github.com/hendrikebbers/8e4dec9ddea5e2a420080d1314af025f[最新的问题模板]
+- https://gist.github.com/hendrikebbers/0f9cdd18076343b3bbe5f2d162733b6e[最新贡献文件中关于 "第一时间支持"章节内容]
+- https://github.com/AdoptOpenJDK/IcedTea-Web/issues/706[**`第一次优先级问题`** 例子]
